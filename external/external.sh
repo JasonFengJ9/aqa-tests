@@ -370,6 +370,7 @@ if [ $command_type == "load" ]; then
 	if [[ $docker_registry_required != "false" ]]; then
 		if [[ $docker_registry_url ]]; then
 			echo "Private Docker Registry login starts:"
+			echo "Private Docker Registry login starts log0122: $DOCKER_REGISTRY_CREDENTIALS_PSW | $container_login --username=$DOCKER_REGISTRY_CREDENTIALS_USR --password-stdin $docker_registry_url "
 			echo $DOCKER_REGISTRY_CREDENTIALS_PSW | $container_login --username=$DOCKER_REGISTRY_CREDENTIALS_USR --password-stdin $docker_registry_url
 
 			mount_options="$mountV"
