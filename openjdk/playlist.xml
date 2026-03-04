@@ -2091,14 +2091,6 @@
 				<version>24</version>
 			</disable>
 			<disable>
-				<comment>https://github.com/eclipse-openj9/openj9/issues/10757</comment>
-				<impl>openj9</impl>
-			</disable>
-			<disable>
-				<comment>https://github.com/eclipse-openj9/openj9/issues/10757</comment>
-				<impl>ibm</impl>
-			</disable>
-			<disable>
 				<comment>https://bugs.openjdk.org/browse/JDK-8324306</comment>
 				<platform>x86-64_alpine-linux|aarch64_alpine-linux</platform>
 				<version>17</version>
